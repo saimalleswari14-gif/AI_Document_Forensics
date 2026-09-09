@@ -4,4 +4,4 @@ pillow
 numpy
 pytesseract
 pandas
-deepface
+plotly
