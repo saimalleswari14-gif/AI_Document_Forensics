@@ -5,3 +5,5 @@ numpy
 pytesseract
 pandas
 plotly
+deepface
+tensorflow
