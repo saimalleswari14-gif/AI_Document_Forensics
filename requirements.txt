@@ -6,4 +6,4 @@ pytesseract
 pandas
 plotly
 deepface
-tensorflow
+tensorflow-cpu
