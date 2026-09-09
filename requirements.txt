@@ -4,5 +4,4 @@ pillow
 numpy
 pytesseract
 pandas
-tensorflow
 deepface
