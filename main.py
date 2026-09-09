@@ -12,12 +12,8 @@ import numpy as np
 import pytesseract
 import re
 import pandas as pd
-try:
-    import tensorflow as tf
-    from deepface import DeepFace
-    HAS_TF = True
-except ImportError:
-    HAS_TF = False
+import tensorflow as tf
+    
 
 # Charts work with plotly if installed, else matplotlib, else built-in Streamlit charts.
 CHART_ENGINE = "native"
@@ -36,7 +32,7 @@ except ModuleNotFoundError:
 
 from datetime import datetime
 from PIL import Image, ImageChops, ImageEnhance
-
+from deepface import DeepFace
 st.set_page_config(
     page_title="Universal Document Forensic & Verification Engine",
     page_icon="🛡️",
