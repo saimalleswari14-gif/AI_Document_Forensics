@@ -6,4 +6,4 @@ pytesseract
 pandas
 plotly
 deepface
-tensorflow-cpu
+tensorflow==2.15.0
